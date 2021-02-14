@@ -42,6 +42,11 @@ Contact.prototype.fullName = function() {
 
 // UI Logic ---------
 let addressBook = new AddressBook();
+
+function displayContactDetails(addressBookToDisplay) {
+
+}
+
 $(document).ready(function() {
   $("form#new-contact").submit(function(event) {
     event.preventDefault();
